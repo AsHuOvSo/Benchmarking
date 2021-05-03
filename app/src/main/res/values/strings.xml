@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Benchmarking</string>
+    <string name="EditTxtWord_hint">Enter word</string>
+    <string name="btnReverse_text">Reverse</string>
+    <string name="txtVwSavedWordsText_text">The amount of saved words are:</string>
+    <string name="txtVwSavedWordsAmount_text">0</string>
+    <string name="btnSave_text">Save</string>
+    <string name="txtVwResult_Text">Nothing to reverse!</string>
+</resources>
