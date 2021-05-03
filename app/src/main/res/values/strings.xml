@@ -6,4 +6,6 @@
     <string name="txtVwSavedWordsAmount_text">0</string>
     <string name="btnSave_text">Save</string>
     <string name="txtVwResult_Text">Nothing to reverse!</string>
+    <string name="btnBack_Text">Back</string>
+    <string name="txtVwRes_Text">Placeholder</string>
 </resources>
