@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.res.Resources;
 import android.os.Bundle;
-import android.text.TextUtils;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -30,13 +29,13 @@ public class MainActivity extends AppCompatActivity {
                 System.out.println("Error: No input in EditText");
             }
             else {
-                Backwards wordB = new Backwards();
-                wordB.setTestWord(editText.getText().toString());
-                String outputWord = wordB.ReverseWord();
+                Reverse wordR = new Reverse();
+                wordR.setTestWord(editText.getText().toString());
+                String outputWord = wordR.ReverseWord();
                 showRes.setText(outputWord);
             }
         }
-        catch (Exception e) {
+        catch (Exception ignored) {
 
         }
     }
@@ -54,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
                 tSavedWords.setText(wordS.UpdateAmount());
             }
         }
-        catch (Exception e) {
+        catch (Exception ignored) {
 
         }
 

@@ -1,6 +1,6 @@
 package com.example.benchmarking;
 
-public class Backwards {
+public class Reverse {
 
     String testWord;
     public String getTestWord() {
